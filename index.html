@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="icon" href="img/perfil.png" type="">
+    <script src="https://kit.fontawesome.com/4a4b12db61.js" crossorigin="anonymous"></script>
+    <title>Meu Portifólio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Projeto Portifólio</h1>
+        <div id="caixaIcone" onclick="menuHamburguer()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav id="menu">
+            <ul id="itensMenu">
+                <li><a href="#sobreMim" onclick="EsconderMenu()">Sobre Mim</a></li>
+                <li><a href="#experiencias" onclick="EsconderMenu()">Experiências</a></li>
+                <li><a href="#formacao" onclick="EsconderMenu()">Formação</a></li>
+                <li><a href="#projetos" onclick="EsconderMenu()">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobreMim"> <!--Início da section Sobre Mim -->
+
+            <img src="img/foto.jpeg" alt="" class="foto">
+
+            <h1>Gustavo Silva Alves de Oliveira</h1>
+
+            <p>
+                Formado em Análise e Desenvolvimento de Sistemas (2023), atuo com foco em manipulação de dados,
+                automações e desenvolvimento de soluções eficientes, com destaque para as linguagens SQL e Python.
+                Possuo sólida experiência na criação de ETLs, elaboração de relatórios automatizados e desenvolvimento
+                de processos voltados à análise e integração de dados, utilizando SQL Server como principal base. Também
+                aplico conhecimentos em C-Sharp, com fundamentos sólidos em programação orientada a objetos, para
+                desenvolvimento de aplicações e integrações com sistemas. Além disso, utilizo o Power BI para criação de
+                dashboards interativos e visualizações que apoiam a tomada de decisão.
+            </p>
+
+            <div id="redeSocial">
+                <a href="https://www.linkedin.com/in/gustavo-silva-alves-de-oliveira-054065219/" target="_blank">
+                    <i class="fa-brands fa-square-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/GustavoSlv" target="_blank">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+
+                <a href="https://wa.me/5511952421325" target="_blank">
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                </a>
+            </div>
+
+        </section> <!--Fim  da section Sobre Mim -->
+
+
+
+
+
+
+        <section id="experiencias"> <!--Início da section experiencias -->
+            <article>
+                <h2><i class="fa-solid fa-briefcase"></i> Experiências</h2>
+                <div class="experiencia">
+                    <h4>Analista de Mis</h4>
+                    <p><strong>Ferreira e Chagas Advogados - 05/2022 - Atual</strong></p>
+                    <p>
+                        Foco principal em desenvolvimento com SQL Server e Python para tratamento e análise de dados.
+                        Criação e otimização de consultas, procedures e scripts em SQL voltados para ETL e relatórios.
+                        Automação de tarefas e processos utilizando Python e Selenium.
+                        Elaboração de dashboards e relatórios interativos com Power BI e Excel.
+                        Padronização e organização de metadados técnicos e de negócio, com foco em uso interno e entrega
+                        de valor ao cliente
+                    </p>
+                </div>
+
+                <div class="experiencia">
+                    <h4>Assistente de TI</h4>
+                    <p><strong>Ferreira e Chagas Advogados - 03/2019 - 05/2022</strong></p>
+                    <p>
+                        Suporte ao usuário e manutenção de perfis nos sistemas da empresa.
+                        Domínio do CRM Cobmais, com importações e configurações.
+                        Verificação de backups e manutenção de servidores e computadores.
+                        Criação de relatórios para melhorias operacionais.
+                    </p>
+                </div>
+
+                <div class="experiencia">
+                    <h4>Aprendiz de TI</h4>
+                    <p><strong>Ferreira e Chagas Advogados - 03/2018 - 02/2019</strong></p>
+                    <p>
+                        Suporte ao usuário e manutenção de perfis nos sistemas da empresa.
+                    </p>
+                </div>
+            </article>
+        </section> <!--Fim da section experiencias -->
+
+
+
+
+
+
+        <section id="formacaoCursos"> <!--Início da section formações e cursos -->
+            <article id="formacao">
+                <h2>
+                    <i class="fa-solid fa-user-graduate"></i>
+                    Formação
+                </h2>
+
+                <div class="itemFormacao">
+                    <h4>Tecnologia Em Análise E Desenvolvimento De Sistemas</h4>
+                    <p>Universidade Nove De Julho - Uninove</p>
+                    <p>Período: 02/2021 - 06/2023</p>
+
+                </div>
+
+            </article>
+
+
+            <article id="cursosComplementares">
+                <h2>
+                    <i class="fa-solid fa-book"></i>
+                    Cursos Complementares
+                </h2>
+
+                <div class="itemCurso">
+                    <h4>Programando com C-Sharp</h4>
+                    <p>Escola: Impacta Tecnologia</p>
+                    <p>Conclusão - 04/2024</p>
+                </div>
+
+                <div class="itemCurso">
+                    <h4>Formação Microsoft SQL Server 2022</h4>
+                    <p>Escola: Alura</p>
+                    <p>Conclusão - 09/2023</p>
+                </div>
+            </article>
+        </section> <!--Fim da section formações e cursos -->
+
+        <section id="projetos"> <!--Início da section de projetos -->
+            <article>
+                <h2>Projetos</h2>
+                <div class="projeto">
+                    <h4>Em desenvolvimento</h4>
+                    <p><a href="https://gustavoslv.github.io/ProjetoAndroid/" target="_blank">Projeto Android</a></p>
+                    <p><a href="https://gustavoslv.github.io/ProjetoTelaLogin/" target="_blank">Projeto Tela de Login</a></p>
+                    <p><a href="https://gustavoslv.github.io/ProjetoCordelModerno/" target="_blank">Projeto Cordel Moderno</a></p>
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+
+
+
+    <footer>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
