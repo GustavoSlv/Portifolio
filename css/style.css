@@ -200,58 +200,35 @@ article>h2 {
 
 #boxProjetos{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-    
+    flex-direction: column;
 }
 
 
-.projeto{
-    margin-top: 25px;
-    width: 250px;
-    border-radius: 8px;
-    box-shadow: 1px 1px 3px 1px rgb(190, 190, 190);
-}
 
-.projeto a {
+
+.projeto a{
     text-decoration: none;
-
+    color: var(--texto);
 }
 
-
-.projeto i{
-    font-size: 5em;
-    border-radius: 8px 8px 0px 0px;
-}
-
-.projeto h4{
-    text-align: center;
-    margin: 10px 0px;
-}
-
-.projeto p{
-    display: block;
-    text-align:start;
-    margin: 25px;
-}
 
 .itemCurso,
 .experiencia,
-.itemFormacao
+.itemFormacao,
+.projeto
 {
     border-left: 3px solid var(--destaque-inverso);
     padding-left: 8px;
     border-radius: 8px;
     transition: border-left 0.2s, color 0.2s;
-    margin: 25px 0px;
+    margin: 25px 0px 0px 0px;
 }
 
 
 .itemCurso:hover,
 .experiencia:hover,
-.itemFormacao:hover{
+.itemFormacao:hover,
+.projeto:hover{
     border-left: 5px solid var(--destaque);
     padding-left: 8px;
     border-radius: 8px;
