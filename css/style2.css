@@ -11,6 +11,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     header>h1 {
@@ -24,8 +25,10 @@
 
 
     #menu {
-        width: 50vw;
+        width: 600px;
     }
+
+
 
     #itensMenu {
         display: flex !important;
@@ -42,7 +45,7 @@
     #experiencias,
     #formacaoCursos,
     #projetos {
-        width: 900px;
+        width: 80vw;
     }
 
     section#formacaoCursos {

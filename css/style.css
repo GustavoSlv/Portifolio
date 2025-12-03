@@ -29,8 +29,7 @@ header {
     flex-direction: column;
     align-content: center;
     padding: 10px 0px;
-    position: sticky;
-    top: 0;
+    
 }
 
 header>h1 {
@@ -45,40 +44,25 @@ header>h1 {
 #caixaIcone {
     width: 97%;
     display: flex;
-    margin: auto;
 }
 
-#caixaIcone i {
-    color: var(--texto-inverso);
-    width: 100%;
-    margin: auto;
-    cursor: pointer;
-    /*faz aparecer a mãozinha como se fosse um link*/
-    font-size: 2em;
-    border-radius: 5px;
-    padding: 10px;
-    z-index: 9999;       /* garante que está acima de tudo */
-    touch-action: manipulation; /* ajuda no mobile */
-}
-
-#caixaIcone i:hover {
-    background-color: var(--destaque-inverso);
-    color: var(--destaque);
-    transition: background-color 0.5s, color 0.5s;
-}
 
 
 
 #itensMenu {
     list-style: none;
     /*Retira as bolinhas da lista*/
-    display: none;
+    display: flex;
     /*Espaçamento entre os links*/
     flex-direction: column;
     width: 97%;
-    margin: auto;
 }
 
+
+#menu{
+    display: flex;
+    justify-content: center;
+}
 
 
 #menu li {

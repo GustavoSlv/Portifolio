@@ -1,6 +1,6 @@
 
 
-
+/*
 function menuHamburguer() {
     let menu = document.getElementById("itensMenu");
 
@@ -23,7 +23,9 @@ function EsconderMenu() {
         menu.style.display = "flex";
     }
 }
-/*
+
+
+
 function menuHamburguer() {
     let menu = document.getElementById("itensMenu");
     menu.classList.toggle("ativo");
