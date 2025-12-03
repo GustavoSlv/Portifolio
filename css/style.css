@@ -57,6 +57,8 @@ header>h1 {
     font-size: 2em;
     border-radius: 5px;
     padding: 10px;
+    z-index: 9999;       /* garante que está acima de tudo */
+    touch-action: manipulation; /* ajuda no mobile */
 }
 
 #caixaIcone i:hover {
