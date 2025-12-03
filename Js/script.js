@@ -29,7 +29,3 @@ function menuHamburguer() {
     menu.classList.toggle("ativo");
 }
 
-function EsconderMenu() {
-    let menu = document.getElementById("itensMenu");
-    menu.classList.remove("ativo");
-}
