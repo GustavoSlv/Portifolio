@@ -79,9 +79,7 @@ header>h1 {
     margin: auto;
 }
 
-#itensMenu.ativo {
-    display: flex;     /* quando mostrar */
-}
+
 
 #menu li {
     width: 97%;
